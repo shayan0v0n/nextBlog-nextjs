@@ -1,0 +1,23 @@
+@import './styles/_variables.scss';
+@font-face {
+    font-family: "vazir";
+    src: url('/assets/fonts/Vazir-Regular-FD.woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "vazir";
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    color: $fourth_color;
+}
+
+.carousel-control-prev,
+.carousel-indicators,
+.carousel-control-next {
+    display:none !important;
+}

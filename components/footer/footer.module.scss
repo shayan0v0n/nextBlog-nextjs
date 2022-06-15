@@ -1,0 +1,11 @@
+@import '../../styles/_variables.scss';
+
+.footerStyle {
+    background-color: $primary_color;
+    color: $third_color;
+    padding: .5rem;
+}
+
+.contactusLink {
+    display: block;
+}

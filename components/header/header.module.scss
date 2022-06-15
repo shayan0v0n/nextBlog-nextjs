@@ -1,0 +1,19 @@
+@import '../../styles/_variables.scss';
+
+.headerNavbar {
+    background-color: $primary_color;
+    color: $fourth_color;
+    a {
+        text-decoration: none;
+        color: $fourth_color;
+        padding: .5rem 1rem;
+    }
+}
+.dropDownStyle div {
+    background-color: $primary_color !important;
+    text-align: center !important;
+}
+
+.dropDownStyle div a:hover {
+    background-color: $primary_color !important;
+}
